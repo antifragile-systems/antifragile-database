@@ -1,5 +1,13 @@
-variable "infrastructure_name" {}
+variable "infrastructure_name" {
+}
 
-variable "name" {}
+variable "aws_region" {
+  default = "eu-west-1"
+}
 
-variable "user_password" {}
+variable "name" {
+}
+
+variable "user_password" {
+}
+
