@@ -41,7 +41,7 @@ resource "mysql_user" "user" {
   tls_option         = "SSL"
 }
 
-resource "mysql_grant" "vinodavita-com" {
+resource "mysql_grant" "grant" {
   user     = var.name
   host     = mysql_user.user.host
   database = mysql_database.database.name
